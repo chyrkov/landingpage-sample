@@ -38,29 +38,12 @@ export default function Hero() {
             href="#contact"
             className="bg-white text-gray-900 hover:bg-gray-100 px-6 py-2 rounded-full text-sm font-semibold transition-all duration-200"
           >
-            Apply Now
+            Book a Call
           </a>
         </div>
       </header>
 
-      {/* Social Icons - Left Side */}
-      <div className="absolute left-8 top-1/2 transform -translate-y-1/2 z-10 hidden lg:flex flex-col gap-6">
-        <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
-            <path d="M12 2C6.477 2 2 6.477 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2zm0 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8zm-2-10h4v2h-4v-2zm0 4h4v2h-4v-2z" fill="currentColor"/>
-          </svg>
-        </a>
-        <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="currentColor"/>
-          </svg>
-        </a>
-        <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/>
-          </svg>
-        </a>
-      </div>
+
 
       {/* Main Content - Centered */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20 min-h-[calc(100vh-200px)] flex flex-col justify-center">
@@ -148,42 +131,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Bottom Section - Statistics & Security Info */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-        <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8">
-          {/* Security Info - Left */}
-          <div className="max-w-md">
-            <h3 className="text-white text-lg font-semibold mb-2">Safe Security</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              We can guarding your payments with useful interface, empowering you with privacy everywhere.
-            </p>
-          </div>
-
-          {/* Statistics - Center */}
-          <div className="flex flex-wrap gap-8 lg:gap-12">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">65%+</div>
-              <div className="text-sm text-gray-400">People Joined</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">100K+</div>
-              <div className="text-sm text-gray-400">Money Protected</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">0.20%+</div>
-              <div className="text-sm text-gray-400">Fraud Probability</div>
-            </div>
-          </div>
-
-          {/* Light Mode Toggle - Right */}
-          <div className="flex items-center gap-3">
-            <span className="text-white text-sm">Light Mode</span>
-            <div className="w-12 h-6 bg-gray-700 rounded-full relative cursor-pointer">
-              <div className="w-5 h-5 bg-gray-500 rounded-full absolute left-0.5 top-0.5 transition-all"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </section>
   );
 }
